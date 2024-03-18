@@ -1,7 +1,7 @@
-const ServiceTable = () => {
+const ServiceTable = ({serviceItems}) => {
     return (
-      <div className="item-table">
-        servicetable
+      <div className="service-table">
+        {serviceItems.idlm} {serviceItems.title}
       </div>
     )
   }
